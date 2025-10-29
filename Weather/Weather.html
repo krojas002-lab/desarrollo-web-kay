@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>N I M B U S</title>
+<link rel="stylesheet" href="CSS/Nimbus.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <h1 style="text-align:center;">N I M B U S</h1>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="weather-app">
+            <h1>Clima MX 🇲🇽</h1>
+            <div class="search-box">
+                <input type="text" id="city-input" placeholder="Ingresa una ciudad de México (ej: Monterrey)">
+                <button id="search-button">Buscar</button>
+            </div>
+
+            <div id="weather-data" style="display: none;">
+                <div id="current-weather" class="current-weather"></div>
+                <div id="forecast" class="forecast">
+                    <h2>Pronóstico para los próximos días</h2>
+                </div>
+            </div>
+
+            <p id="error-message" class="error-message"></p>
+        </div>
+    </main>
+
+    <!--Footer de la página-->
+    <footer class="footer">
+        <p>&copy; 2025 N I M B U S. Inspirado por el cielo, creado para ti. Todos los derechos reservados.</p>
+    </footer>
+    <script src="JS/Nimbu.js"></script>
+</body>
+</html>
